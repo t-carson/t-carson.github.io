@@ -1,12 +1,14 @@
-# 启动项目：
+### 启动项目：
 
-### admin端和serve:
+##### 1、admin端和serve都是
 
 ```tex
 npm install
 
 npm run serve
 ```
+
+##### 2、CMD内输入 `mongo` 启动 MongoDB 数据库（前提下你得有 MongoDB 的环境）
 
 账号：admin
 
@@ -105,3 +107,4 @@ assert(user, 422, '用户不存在')
 ```
 
 ![image-20200924193603089](C:\Users\SEA\AppData\Roaming\Typora\typora-user-images\image-20200924193603089.png)
+

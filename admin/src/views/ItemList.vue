@@ -50,7 +50,7 @@ export default {
           message: "删除成功!",
         });
         // 当删除执行完之后要再获取一下数据
-        this.fetch();
+        await this.fetch();
         // 这里如果不加就会因为取消操作时，无法捕获而报错
       });
     },

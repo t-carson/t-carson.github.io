@@ -10,7 +10,7 @@
         <el-input v-model="model.name"></el-input>
       </el-form-item>
       <el-form-item label="广告">
-        <el-button size="small" @click="model.items.push({})"
+        <el-button :disabled="model.items.length > 4" size="small" @click="model.items.push({})"
           ><i class="el-icon-plus"></i> 添加广告</el-button
         >
         <el-row type="flex" style="flex-wrap:wrap">
@@ -34,7 +34,7 @@
               </el-upload>
             </el-form-item>
             <el-form-item>
-              <!-- solice这个方式是类似与切片 -->
+              <!-- splice这个方式是类似与切片 -->
               <el-button
                 type="danger"
                 size="small"
