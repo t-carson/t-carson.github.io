@@ -76,7 +76,7 @@
           <!-- 子路由容器 -->
           <router-view></router-view>
         </el-main>
-      </el-container>heroes
+      </el-container>
     </el-container>
   </div>
 </template>
