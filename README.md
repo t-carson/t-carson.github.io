@@ -8,7 +8,7 @@ npm install
 npm run serve
 ```
 
-##### 2、CMD内输入 `mongo` 启动 MongoDB 数据库（前提下你得有 MongoDB 的环境）
+##### 2、启动 MongoDB 数据库
 
 账号：admin
 
