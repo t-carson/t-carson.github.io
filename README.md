@@ -1,20 +1,23 @@
-### 启动项目：
+# 启动事项：
 
-##### 1、admin端和serve都是
+#### 1、所需环境（不够详细的话自行百度）
 
-```tex
-npm install
+Nodejs环境：https://blog.csdn.net/qq_25857899/article/details/115159704
 
-npm run serve
-```
+MongoDB环境：https://blog.csdn.net/crsitin_spade/article/details/121383699
 
-##### 2、启动 MongoDB 数据库
+#### 2、数据库配置
 
-账号：admin
+（1）启动 MongoDB，随后 Navicat 连接数据库，所有配置默认；
 
-密码：admin
+（2）创建名为 **node-vue-moba** 的数据库，点击node-vue-moba-运行脚本文件：serve/node-vue-moba.sql
 
-### 技术栈：
+#### 3、启动项目
+
+- wangzherongyao\admin（后台）：**npm run serve**
+- wangzherongyao\serve（后端）：**node index.js**
+
+# 技术栈：
 
 1、官网：Vue.js  swiper插件（Vant UI）axios fetch  
 
@@ -105,6 +108,4 @@ assert(user, 422, '用户不存在')
   })
 
 ```
-
-![image-20200924193603089](C:\Users\SEA\AppData\Roaming\Typora\typora-user-images\image-20200924193603089.png)
 

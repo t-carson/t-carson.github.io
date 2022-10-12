@@ -67,7 +67,7 @@ module.exports = app => {
 
   //获取详情页某一个分类详情的数据用于修改数据
   router.get('/:id', async (req, res) => {
-    //req.params 
+    //req.params
     // 官方翻译:包含映射到指定的路线“参数”属性的对象。
     // 例如，如果你有route/user/：name，那么“name”属性可作为req.params.name。
     // 该对象默认为{}。
@@ -75,12 +75,12 @@ module.exports = app => {
     res.send(model)
   })
 
-  //-------------------------------------------------------- 
+  //--------------------------------------------------------
   // 登录校验中间件
   const authMiddleware = require('../../middleware/auth')
   // 资源中间件
   const resourceMiddleware = require('../../middleware/resource')
-  //-------------------------------------------------------- 
+  //--------------------------------------------------------
 
   //文件上传
   //               upload.single接收单个文件的上传
@@ -118,13 +118,6 @@ module.exports = app => {
 
     const user = await AdminUser.findOne({ username }).select('+password')
     assert(user, 422, '用户不存在')
-    // if (!user) {
-    //   // 设置一个状态码再发送
-    //   return res.status(422).send({
-    //     message: '用户不存在'
-    //   })
-    // }
-
     // 1.根据用户名找用户(已挪至最上方)
     // 2.校验密码
     const isValid = require('bcrypt').compareSync(password, user.password)
