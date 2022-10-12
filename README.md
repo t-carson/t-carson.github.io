@@ -8,14 +8,14 @@ MongoDB环境：https://blog.csdn.net/crsitin_spade/article/details/121383699
 
 #### 2、数据库配置
 
-（1）启动 MongoDB，随后 Navicat 连接数据库，所有配置默认；
-
-（2）创建名为 **node-vue-moba** 的数据库，点击node-vue-moba-运行脚本文件：serve/node-vue-moba.sql
+1. 启动 MongoDB，随后 Navicat 连接数据库，所有配置默认
+2. 创建名为 **node-vue-moba** 的数据库，点击node-vue-moba-运行脚本文件（导入基础用户信息）：serve/node-vue-moba.sql
 
 #### 3、启动项目
 
-- wangzherongyao\admin（后台）：**npm run serve**
-- wangzherongyao\serve（后端）：**node index.js**
+- 前台（wangzherongyao\web）：**npm run serve**
+- 后台（wangzherongyao\admin）：**npm run serve**
+- 后端（wangzherongyao\serve）：**node index.js**
 
 # 技术栈：
 
