@@ -20,7 +20,10 @@
 export default {
   data() {
     return {
-      model: {},
+      model: {
+          username: 'admin',
+          password: 'admin'
+      },
     };
   },
   methods: {
