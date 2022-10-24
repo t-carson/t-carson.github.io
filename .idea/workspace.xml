@@ -82,8 +82,8 @@
     </configuration>
     <list>
       <item itemvalue="npm.admin-serve" />
-      <item itemvalue="npm.serve-serve" />
       <item itemvalue="npm.build" />
+      <item itemvalue="npm.serve-serve" />
     </list>
     <recent_temporary>
       <list>
