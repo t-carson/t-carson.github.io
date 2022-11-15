@@ -2,6 +2,8 @@ import Vue from 'vue'
 import App from './App.vue'
 import './plugins/element.js'
 import router from './router'
+import './common/index'
+
 // 引入公共CSS样式
 import './style.css'
 

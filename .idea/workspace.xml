@@ -5,25 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d57b3e3-e6e0-4c16-a7b6-6be76a5fdebb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serve/uploads/54aa10cc13f0066f45644fa8a2e68ce7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serve/uploads/8061d65cc37026495939ecd6bd3702a0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serve/uploads/93851a214e254e4a9462b91a5cab8347" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serve/uploads/b01a50f7cc465be9d68dab15d04f0d60" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serve/uploads/dd852dab272604aeaea9cc97d1dc12d4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/common/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/demo/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/importImages/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/directive/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/directive/v-perm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/directive/v-preventRe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serve/uploads/18eada072e6ac1a7f42be20771d4b7c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serve/uploads/3404e7d2329af6fca969bb305c6680d7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serve/uploads/485b3bd661c77d1d1afb915139d6dd44" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serve/uploads/5ea9a3766a83bb253e155a74773c0067" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serve/uploads/dfe7df3e15282cafcf30ba2311ff6877" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/AdEdit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/AdEdit.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/ItemList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/ItemList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/ItemEdit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/ItemEdit.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/admin/src/directive/v-preventRe.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/admin/src/components/importImages/index.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/admin/src/router/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/admin/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/admin/src/directive/v-perm.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/admin/src/views/ItemEdit.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/admin/src/components/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/admin/vue.config.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/admin/src/main.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1tZPLVH3Jfj8S5rOszSoDehuM96" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -39,7 +74,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -49,7 +84,15 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MyDevelop\demo\wangzherongyao\admin\src\components" />
+      <recent name="C:\MyDevelop\demo\wangzherongyao\admin" />
+      <recent name="C:\MyDevelop\demo\wangzherongyao\admin\src" />
+      <recent name="C:\MyDevelop\demo\wangzherongyao\admin\src\directive" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.admin-serve">
     <configuration name="admin-serve" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/admin/package.json" />
       <command value="run" />
@@ -82,8 +125,8 @@
     </configuration>
     <list>
       <item itemvalue="npm.admin-serve" />
-      <item itemvalue="npm.build" />
       <item itemvalue="npm.serve-serve" />
+      <item itemvalue="npm.build" />
     </list>
     <recent_temporary>
       <list>
@@ -111,6 +154,9 @@
       <workItem from="1636018175534" duration="1100000" />
       <workItem from="1636073348450" duration="2486000" />
       <workItem from="1636075997279" duration="44000" />
+      <workItem from="1668490864792" duration="3234000" />
+      <workItem from="1668494756959" duration="12000" />
+      <workItem from="1668495050551" duration="1418000" />
     </task>
     <task id="LOCAL-00001" summary="备份">
       <created>1622974057244</created>
