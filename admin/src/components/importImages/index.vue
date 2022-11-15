@@ -141,7 +141,7 @@ export default {
         async handleUploadFile (file) {
             const form = new FormData()
             form.append('file', file)
-            const { data } = await this.$http.post(`/admin/api/upload`, form);
+            const { data } = await this.$http.post(`upload`, form);
             if (data.success) {
                 this.$emit('handleUploadFile', data.data, file)
             }

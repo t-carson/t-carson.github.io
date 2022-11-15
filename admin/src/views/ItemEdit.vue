@@ -84,3 +84,11 @@ export default {
   },
 };
 </script>
+<style lang="scss" scoped>
+.wrap {
+    background-color: red;
+    .div {
+        background-color: pink;
+    }
+}
+</style>
