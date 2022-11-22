@@ -100,6 +100,13 @@ export default {
     if (!this.id) {
       console.log('空');
     }
+    let flag = true
+    if (flag) {
+      console.log('true');
+    }
+    if (!flag) {
+      console.log('false');
+    }
   },
 };
 </script>
