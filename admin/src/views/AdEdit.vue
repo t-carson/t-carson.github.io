@@ -97,6 +97,9 @@ export default {
     } else {
       console.log('无');
     }
+    if (!this.id) {
+      console.log('空');
+    }
   },
 };
 </script>
