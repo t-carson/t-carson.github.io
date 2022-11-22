@@ -47,9 +47,6 @@
       </el-form-item>
       <el-form-item>
         <el-button type="primary" native-type="submit">保存</el-button>
-        <el-button type="prevent">测试提交</el-button>
-        <h1>222</h1>
-        <h2>333</h2>
       </el-form-item>
     </el-form>
     <!-- 表单结束 -->
