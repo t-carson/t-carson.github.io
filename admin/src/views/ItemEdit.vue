@@ -3,7 +3,7 @@
     <h1>{{ id ? "编辑" : "新建" }}物品</h1>
     <!-- 表单开始 -->
     <!-- natice表示的是原生的表单,prevent是阻止默认提交 -->
-    <el-form label-width="120px" @submit.native.prevent="save">
+    <el-form label-width="120px" @submit.native.prevent>
       <!-- 添加 -->
       <!-- 商品名称 -->
       <el-form-item label="名称">
@@ -25,7 +25,7 @@
         </el-upload>
       </el-form-item>
       <el-form-item>
-        <el-button type="primary" native-type="submit">保存</el-button>
+        <el-button v-preventRe type="primary" @click="save">保存</el-button>
       </el-form-item>
     </el-form>
     <!-- 表单结束 -->
@@ -84,3 +84,11 @@ export default {
   },
 };
 </script>
+<style lang="scss" scoped>
+.wrap {
+    background-color: red;
+    .div {
+        background-color: pink;
+    }
+}
+</style>
