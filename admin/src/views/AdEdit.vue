@@ -92,7 +92,11 @@ export default {
   },
   created() {
     // 如果有ID才执行
-    this.id && this.fetch();
+    if (this.id) {
+      this.fetch()
+    } else {
+      console.log('无');
+    }
   },
 };
 </script>
